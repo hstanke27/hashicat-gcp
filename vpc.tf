@@ -1,4 +1,4 @@
-module "network" "gaurav-network" {
+module "network" {
   source  = "app.terraform.io/holger-training/network/google"
   version = "2.5.0"
   network_name  = gaurav-network
